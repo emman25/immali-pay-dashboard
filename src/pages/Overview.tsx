@@ -55,7 +55,7 @@ function Overview() {
           </div>
           <input
             type="text"
-            className="flex-shrink flex-grow flex-auto leading-normal w-px flex-1 border border-l-0 h-10 border-grey-light rounded-lg rounded-l-none px-3 relative focus:border-blue focus:shadow"
+            className="flex-shrink flex-grow flex-auto leading-normal w-px flex-1 border border-l-0 h-10 border-grey-light rounded-lg rounded-l-none px-3 focus:border-blue focus:shadow"
             placeholder="Search for customer’s name"
           />
         </div>
@@ -71,7 +71,7 @@ function Overview() {
         </div>
       </div>
       <div className="flex flew-col justify-between mr-3 mt-8">
-        <div className="h-screen w-full">
+        <div className="w-full">
           <div className="overflow-auto rounded-lg shadow hidden md:block">
             <table className="w-full">
               <thead className="bg-gray-50 border-b-2 border-gray-200">
@@ -327,7 +327,7 @@ function Overview() {
         </div>
       </div>
 
-      <div className="flex flew-col justify-center mr-3 mt-8">
+      <div className="flex flew-col justify-center mr-3 mt-8 bottom-0">
         <div className="flex justify-center">
           <nav aria-label="Page navigation example">
             <ul className="flex list-style-none">

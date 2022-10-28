@@ -262,7 +262,7 @@ function CustomerSingle() {
                       fontSize: "16px",
                       fontWeight: 400,
                     }}
-                    className="flex-shrink flex-grow flex-auto leading-normal w-px flex-1 border  border-l-0 h-10 border-grey-light rounded-lg rounded-l-none px-3 relative focus:border-blue focus:shadow"
+                    className="flex-shrink flex-grow flex-auto leading-normal w-px flex-1 border  border-l-0 h-10 border-grey-light rounded-lg rounded-l-none px-3 focus:border-blue focus:shadow"
                     placeholder="8041 5063 789"
                     value={getLastEightDigits(customer().phoneNumber)}
                   />
@@ -581,7 +581,7 @@ function CustomerSingle() {
                         fontSize: "16px",
                         fontWeight: 400,
                       }}
-                      className="flex-shrink flex-grow flex-auto leading-normal w-px flex-1 border  border-l-0 h-10 border-grey-light rounded-lg rounded-l-none px-3 relative focus:border-blue focus:shadow"
+                      className="flex-shrink flex-grow flex-auto leading-normal w-px flex-1 border  border-l-0 h-10 border-grey-light rounded-lg rounded-l-none px-3 focus:border-blue focus:shadow"
                       placeholder="8041 5063 789"
                       value={getLastEightDigits(customer().phoneNumber)}
                     />
