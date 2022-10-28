@@ -38,7 +38,7 @@ function Customers() {
         </div>
       </div>
       <div className="flex flex-col sm:flex-row md-flex-row justify-between mt-8">
-        <div className="flex flex-wrap items-stretch relative w-72 mt-2">
+        <div className="flex flex-wrap items-stretch w-72 mt-2">
           <div className="flex">
             <span className="flex items-center leading-normal border-1 rounded-r-none border border-r-0 border-gray px-3 whitespace-no-wrap text-grey-dark text-sm w-12 h-10 bg-white justify-center items-center  text-xl rounded-lg text-white">
               <svg
